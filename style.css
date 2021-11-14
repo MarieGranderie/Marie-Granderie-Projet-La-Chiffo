@@ -40,6 +40,38 @@ html, body {
   background: linear-gradient(#6f2c63, #6f2c63,#6f2c63,#6f2c63, white);
 }
 
+/*CSS Footer*/
+
+.linear-gradient-reverse {
+  background: linear-gradient(white,#6f2c63, #6f2c63,#6f2c63,#6f2c63);
+}
+
+.footer-list {
+  margin: 20px;
+}
+
+.footer-list-item {
+  line-height: 25px;
+}
+
+.footer-link {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.footer-link:hover {
+  color: rgb(214, 146, 57);;
+}
+
+.social-link {
+  color: white;
+}
+
+.social-link:hover {
+  color: rgb(214, 146, 57);
+}
+
 @media screen and (max-width: 768px) {
   .navbar-md {
     background: #6f2c63;
@@ -53,6 +85,4 @@ html, body {
     width: 80%;
     height: auto;
   }
-
-
 }
