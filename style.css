@@ -1,0 +1,58 @@
+html, body {
+  font-family: 'Lucida Sans', sans-serif ;
+  font-size: 22px; 
+}
+
+.bg-chiffo {
+  background: #6f2c63;
+}
+
+/*CSS header*/
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  width: 45%;
+  height: auto;
+}
+
+.menu-nav {
+  display: flex;
+  justify-content: center;
+  font-family: 'Lucida Sans', sans-serif;
+  margin-top: 15px;
+}
+
+.nav-link-color {
+  color: #6f2c63af;
+  text-decoration: none;
+  font-size: 25px;
+  margin: 15px;
+}
+
+.nav-link-color:hover {
+  color: #6f2c63;
+}
+
+.linear-gradient {
+  background: linear-gradient(#6f2c63, #6f2c63,#6f2c63,#6f2c63, white);
+}
+
+@media screen and (max-width: 768px) {
+  .navbar-md {
+    background: #6f2c63;
+  }
+
+  .nav-link-color {
+    color: #6f2c63af;
+  }
+
+  .logo {
+    width: 80%;
+    height: auto;
+  }
+
+
+}
