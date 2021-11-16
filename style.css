@@ -1,8 +1,3 @@
-html, body {
-  font-family: 'Lucida Sans', sans-serif ;
-  font-size: 22px; 
-}
-
 .bg-chiffo {
   background: #6f2c63;
 }
@@ -40,6 +35,46 @@ html, body {
   background: linear-gradient(#6f2c63, #6f2c63,#6f2c63,#6f2c63, white);
 }
 
+/*CSS Contenu*/
+
+h1, h3 {
+  color: #6f2c63af;
+  padding: 10px;
+}
+
+.photo-boutique {
+  float: right;
+  width: 28%;
+  border-radius: 10px;
+  margin: 10px;
+  margin-left: 20px;
+}
+
+.presentation {
+  padding: 10px;
+  text-align: justify;
+}
+
+.presentation-text {
+  font-size: 20px;
+}
+
+.nom-adresse {
+  font-size: 18px;
+}
+
+.adresse-boutique {
+  font-size: 16px;
+}
+
+.card {
+  margin: 20px;
+}
+
+.card-body {
+  font-size: 18px;
+}
+
 /*CSS Footer*/
 
 .linear-gradient-reverse {
@@ -50,8 +85,12 @@ html, body {
   margin: 20px;
 }
 
-.footer-list-item {
-  line-height: 25px;
+.footer{
+  line-height: 18px;
+}
+
+.font-16 {
+  font-size: 16px;
 }
 
 .footer-link {
@@ -60,8 +99,13 @@ html, body {
   font-size: 18px;
 }
 
-.footer-link:hover {
-  color: rgb(214, 146, 57);;
+.footer-link:hover,
+.nom-adresse {
+  color: rgb(214, 146, 57);
+}
+
+.nom-adresse {
+  font-size: 18px;
 }
 
 .social-link {
@@ -85,4 +129,26 @@ html, body {
     width: 80%;
     height: auto;
   }
+
+  .hidden {
+    display: none;
+  }  
 }
+
+
+
+@media screen and (min-width: 769px) {
+  .hidden-l-xl {
+    display: none;
+  }
+
+  .card-deck {
+    display: flex;
+  }
+
+  .card-presse {
+    width: 70%;
+  }
+}
+
+
